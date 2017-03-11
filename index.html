@@ -76,7 +76,8 @@
     </div>            <END OF WARRNING SIGN-->
 
 
-    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header"> <!--START OF NOTICE BANNER
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header mdl-layout--fixed-header
+            mdl-layout--fixed-tabs"> <!--START OF NOTICE BANNER
       <div class="mdl-dialog__content">
         <div class="mdl-dialog__actions" style="justify-content: center; justify-content: center;">
             <h1><i class="material-icons">cloud</i> SNOW DAYYY</h1>
@@ -107,18 +108,21 @@
             <li class="mdl-menu__item">Legal information</li>
           </ul>
         </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-          <a href="#scroll-tab-1" class="mdl-layout__tab is-active" id="tt2">Tab 1</a>
-              <div class="mdl-tooltip" data-mdl-for="tt2">
-                Upload <strong>file.zip</strong>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect"> 
+          <a href="#Contact_Us" class="mdl-layout__tab is-active">Contact Us</a>
+          <a href="#Directions" class="mdl-layout__tab" id="tt3">Directions</a>
+              <div class="mdl-tooltip" data-mdl-for="tt3">
+                Test
               </div>
-          <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
           <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
           <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
           <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
           <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
         </div>
       </header>
+
+
+      
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
           <i class="material-icons">school</i>
@@ -147,7 +151,7 @@
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>District</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Administration</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Directions</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Calendars</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Community School</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Early Childhood</a>
@@ -163,160 +167,112 @@
         </nav>
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-grid"> <!--ADD "demo-content" CLASS TO THIS DIV TO MAKE CONTENT SMALLER.-->
-          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--12-col">
-            <div class="mdl-layout-title">SNOW DAY </div><div class="mdl-card__supporting-text">Paramus Public Schools will be closed
-on Thursday, February 9th due to the snow storm!</div>
-          </div>
 
 
 
-          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
-            <div class="demo-card-event mdl-card mdl-shadow--2dp">
-              <div class="mdl-card__title mdl-card--expand">
-                <h4>
-                  Featured event:<br>
-                  May 24, 2016<br>
-                  7-11pm
-                </h4>
+        
+        <section class="mdl-layout__tab-panel is-active" id="Contact_Us">
+          <div class="mdl-grid demo-content mdl-layout__content"> <!--ADD "demo-content" CLASS TO THIS DIV TO MAKE CONTENT SMALLER.-->
+            <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--12-col">
+              <div class="mdl-layout-title">SNOW DAY </div><div class="mdl-card__supporting-text">Paramus Public Schools will be closed
+  on Thursday, February 9th due to the snow storm!</div>
+            </div>
+            <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
+
+                <div class="mdl-card__title mdl-card--expand">
+
+                  <iframe src="https://calendar.google.com/calendar/embed?src=paramusschools.org_eufv8q9n5qngp9ukfhcqk6cg7s%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <h4>Upcoming events</h4>
+                </div>
+
+            </div>
+            <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+              <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+                <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+                  <h2 class="mdl-card__title-text">[INSERT CALENDAR THING HERE]]</h2>
+                </div>
+                <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                  Non dolore elit adipisicing ea reprehenderit consectetur culpa.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
+                </div>
               </div>
+              <div class="demo-separator mdl-cell--1-col"></div>
+              <div class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+                <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
+                  <h3>View options</h3>
+                  <ul>
+                    <li>
+                      <label for="chkbox1" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                        <input type="checkbox" id="chkbox1" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label">Click per object</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="chkbox2" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                        <input type="checkbox" id="chkbox2" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label">Views per object</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="chkbox3" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                        <input type="checkbox" id="chkbox3" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label">Objects selected</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="chkbox4" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                        <input type="checkbox" id="chkbox4" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label">Objects viewed</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--blue-grey-50">Change location</a>
+                  <div class="mdl-layout-spacer"></div>
+                  <i class="material-icons">location_on</i>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="demo-cards mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+                <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+                  <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/registrationbutton.jpg">
+                  <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/edfdn.jpg">
+                  <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/harassment.jpg">
+                  <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramusschools.org/ppsd/images/HomeButtons/bullying-district.jpg">
+                  <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/employment.jpg">
+                  <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/solar.jpg">
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+
+        <section class="mdl-layout__tab-panel is-active" id="Directions">
+          <div class="mdl-grid demo-content mdl-layout__content">
+            <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--12-col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.426101214107!2d-74.06346488412345!3d40.92832767930884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2faf6e35d8e19%3A0x4c2db45c4898b29d!2sParamus+High+School!5e0!3m2!1sen!2sus!4v1489209217987" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Add to Calendar
-                </a>
                 <div class="mdl-layout-spacer"></div>
-                <i class="material-icons">event</i>
-              </div>
-            </div>
-            <!--<svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
-              <use xlink:href="#chart" />
-            </svg>
-            <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
-              <use xlink:href="#chart" />
-            </svg>-->
-          </div>
-          <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-              <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-                <h2 class="mdl-card__title-text">[INSERT CALENDAR THING HERE]]</h2>
-              </div>
-              <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                Non dolore elit adipisicing ea reprehenderit consectetur culpa.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
-              </div>
-            </div>
-            <div class="demo-separator mdl-cell--1-col"></div>
-            <div class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
-              <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
-                <h3>View options</h3>
-                <ul>
-                  <li>
-                    <label for="chkbox1" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
-                      <input type="checkbox" id="chkbox1" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Click per object</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label for="chkbox2" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
-                      <input type="checkbox" id="chkbox2" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Views per object</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label for="chkbox3" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
-                      <input type="checkbox" id="chkbox3" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Objects selected</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label for="chkbox4" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
-                      <input type="checkbox" id="chkbox4" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Objects viewed</span>
-                    </label>
-                  </li>
-                </ul>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--blue-grey-50">Change location</a>
-                <div class="mdl-layout-spacer"></div>
-                <i class="material-icons">location_on</i>
+                <h3>Google Maps</h3>
               </div>
             </div>
           </div>
+        </section>
 
 
-
-
-          <div class="demo-cards mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-              <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/registrationbutton.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/edfdn.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/harassment.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramusschools.org/ppsd/images/HomeButtons/bullying-district.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/employment.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/solar.jpg">
-             </div>
-
-          </div>
-
-
-
-
-
-
-              <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid">
-                <img src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/registrationbutton.jpg" alt=""> <!--http://lorempixel.com/256/150/?1-->
-                <div class="mdl-card__actions">
-                  <!--<span class="demo-card-image__filename">Image.jpg</span>-->
-                </div>
-              </div>
-
-              <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid">
-                <img src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/edfdn.jpg" alt=""> <!--http://lorempixel.com/256/150/?2-->
-                <div class="mdl-card__actions">
-                  <!--<span class="demo-card-image__filename">Image.jpg</span>-->
-                </div>
-              </div>
-
-              <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid">
-                <img src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/harassment.jpg" alt=""> <!--http://lorempixel.com/256/150/?3-->
-                <div class="mdl-card__actions">
-                  <!--<span class="demo-card-image__filename">Image.jpg</span>-->
-                </div>
-              </div>
-
-              <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid">
-                <img src="http://www.paramusschools.org/ppsd/images/HomeButtons/bullying-district.jpg" alt=""> <!--http://lorempixel.com/256/150/?4-->
-                <div class="mdl-card__actions">
-                  <!--<span class="demo-card-image__filename">Image.jpg</span>-->
-                </div>
-              </div>
-
-              <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid">
-                <img src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/employment.jpg" alt=""> <!--http://lorempixel.com/256/150/?5-->
-                <div class="mdl-card__actions">
-                  <!--<span class="demo-card-image__filename">Image.jpg</span>-->
-                </div>
-              </div>
-
-              <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid">
-                <img src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/solar.jpg" alt=""> <!--http://lorempixel.com/256/150/?6-->
-                <div class="mdl-card__actions">
-                  <!--<span class="demo-card-image__filename">Image.jpg</span>-->
-                </div>
-              </div>
-
-              <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/registrationbutton.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/edfdn.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/harassment.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramusschools.org/ppsd/images/HomeButtons/bullying-district.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/employment.jpg">
-                <img class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop" src="http://www.paramus.k12.nj.us/ppsd/images/HomeButtons/solar.jpg">
-            </div>
-        </div>
+        
         <footer class="mdl-mini-footer">
           <div class="mdl-mini-footer__left-section">
             <div class="mdl-logo">Made by students of Paramus High Scchool © 2017</div>
